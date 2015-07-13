@@ -1,0 +1,33 @@
+{
+  "name": "clientdatastore-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:csvignesh/ClientDataStore.git"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "jquery": "^2.1.1",
+    "lasso": "^1.9.2",
+    "lasso-marko": "^2.0.4",
+    "lasso-less": "^2.1.1",
+    "marko": "^2.7.1",
+    "serve-static": "^1.9.3",
+    "clientdatastore": "git://github.com/csvignesh/ClientDataStore.git"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}

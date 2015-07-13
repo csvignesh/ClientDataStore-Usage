@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json clientdatastore-sample@0.0.0 No description
+6 warn package.json clientdatastore-sample@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'C:\\Users\\vics\\git\\ClientDataStore_SampleUsage',
+8 verbose install   [ 'express',
+8 verbose install     'jquery',
+8 verbose install     'lasso',
+8 verbose install     'lasso-marko',
+8 verbose install     'lasso-less',
+8 verbose install     'marko',
+8 verbose install     'serve-static',
+8 verbose install     'clientdatastore' ] ]
+9 info preinstall clientdatastore-sample@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping express@^4.0.0 C:\Users\vics\git\ClientDataStore_SampleUsage
+12 verbose already installed skipping jquery@^2.1.1 C:\Users\vics\git\ClientDataStore_SampleUsage
+13 verbose already installed skipping lasso@^1.9.2 C:\Users\vics\git\ClientDataStore_SampleUsage
+14 verbose already installed skipping lasso-marko@^2.0.4 C:\Users\vics\git\ClientDataStore_SampleUsage
+15 verbose already installed skipping lasso-less@^2.1.1 C:\Users\vics\git\ClientDataStore_SampleUsage
+16 verbose already installed skipping marko@^2.7.1 C:\Users\vics\git\ClientDataStore_SampleUsage
+17 verbose already installed skipping serve-static@^1.9.3 C:\Users\vics\git\ClientDataStore_SampleUsage
+18 verbose cache add [ 'clientdatastore@git://github.com/csvignesh/ClientDataStore.git',
+18 verbose cache add   null ]
+19 verbose cache add name=undefined spec="clientdatastore@git://github.com/csvignesh/ClientDataStore.git" args=["clientdatastore@git://github.com/csvignesh/ClientDataStore.git",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'clientdatastore@git://github.com/csvignesh/ClientDataStore.git',
+20 verbose parsed url   path: 'clientdatastore@git://github.com/csvignesh/ClientDataStore.git',
+20 verbose parsed url   href: 'clientdatastore@git://github.com/csvignesh/ClientDataStore.git' }
+21 verbose cache add name="clientdatastore" spec="git://github.com/csvignesh/ClientDataStore.git" args=["clientdatastore","git://github.com/csvignesh/ClientDataStore.git"]
+22 verbose parsed url { protocol: 'git:',
+22 verbose parsed url   slashes: true,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: 'github.com',
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: 'github.com',
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '/csvignesh/ClientDataStore.git',
+22 verbose parsed url   path: '/csvignesh/ClientDataStore.git',
+22 verbose parsed url   href: 'git://github.com/csvignesh/ClientDataStore.git' }
+23 silly lockFile e20634ff-om-csvignesh-ClientDataStore-git git://github.com/csvignesh/ClientDataStore.git
+24 verbose lock git://github.com/csvignesh/ClientDataStore.git C:\Users\vics\AppData\Roaming\npm-cache\e20634ff-om-csvignesh-ClientDataStore-git.lock
+25 verbose addRemoteGit [ 'git://github.com/csvignesh/ClientDataStore.git', 'master' ]
+26 verbose git remote.origin.url git://github.com/csvignesh/ClientDataStore.git
+27 error git fetch -a origin (git://github.com/csvignesh/ClientDataStore.git) fatal: Unable to look up github.com (port 9418) (No such host is known. )
+28 silly lockFile e20634ff-om-csvignesh-ClientDataStore-git git://github.com/csvignesh/ClientDataStore.git
+29 silly lockFile e20634ff-om-csvignesh-ClientDataStore-git git://github.com/csvignesh/ClientDataStore.git
+30 error Error: Command failed: fatal: Unable to look up github.com (port 9418) (No such host is known. )
+30 error
+30 error     at ChildProcess.exithandler (child_process.js:637:15)
+30 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+30 error     at maybeClose (child_process.js:743:16)
+30 error     at Process.ChildProcess._handle.onexit (child_process.js:810:5)
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+34 error cwd C:\Users\vics\git\ClientDataStore_SampleUsage
+35 error node -v v0.10.26
+36 error npm -v 1.4.3
+37 error code 128
+38 verbose exit [ 1, true ]
