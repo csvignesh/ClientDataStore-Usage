@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:csvignesh/ClientDataStore.git"
+    "url": "git@github.com:csvignesh/ClientDataStore-Usage.git"
   },
   "dependencies": {
     "express": "^4.0.0",
