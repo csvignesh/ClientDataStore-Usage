@@ -25,7 +25,7 @@
     "lasso-less": "^2.1.1",
     "marko": "^2.7.1",
     "serve-static": "^1.9.3",
-    "clientdatastore": "git://github.com/csvignesh/ClientDataStore.git"
+    "localdatastore": "^0.1.0"
   },
   "engines": {
     "node": "0.12.x"
