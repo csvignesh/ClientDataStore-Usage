@@ -3,10 +3,10 @@ function create(__helpers) {
       empty = __helpers.e,
       notEmpty = __helpers.ne,
       __renderer = __helpers.r,
-      ___node_modules_lasso_taglib_page_tag_js = __renderer(require("lasso\\taglib\\page-tag")),
+      ___node_modules_lasso_taglib_page_tag_js = __renderer(require("lasso/taglib/page-tag")),
       __tag = __helpers.t,
-      ___node_modules_lasso_taglib_head_tag_js = __renderer(require("lasso\\taglib\\head-tag")),
-      ___node_modules_lasso_taglib_body_tag_js = __renderer(require("lasso\\taglib\\body-tag"));
+      ___node_modules_lasso_taglib_head_tag_js = __renderer(require("lasso/taglib/head-tag")),
+      ___node_modules_lasso_taglib_body_tag_js = __renderer(require("lasso/taglib/body-tag"));
 
   return function render(data, out) {
     __tag(out,
